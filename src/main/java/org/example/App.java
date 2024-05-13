@@ -6,7 +6,8 @@ public class App {
         RectanglePerimeter rectangle = new RectanglePerimeter();
         rectangle.perimeter();
 
-        //
+// Minutes to Second converter;
+        minutesToSecondsConverter convertor = new minutesToSecondsConverter();
+        convertor.secondsToMinutes();
     }
-
 }
