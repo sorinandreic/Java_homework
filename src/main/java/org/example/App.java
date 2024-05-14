@@ -7,7 +7,11 @@ public class App {
         rectangle.perimeter();
 
 // Minutes to Second converter;
-        minutesToSecondsConverter convertor = new minutesToSecondsConverter();
+        MinutesToSecondsConverter convertor = new MinutesToSecondsConverter();
         convertor.secondsToMinutes();
+
+        // Square squareaArea
+        SquareArea area = new SquareArea(5);
+        area.squareaArea();
     }
 }

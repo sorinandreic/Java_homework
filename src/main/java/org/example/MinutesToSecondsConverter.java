@@ -1,6 +1,6 @@
 package org.example;
 
-public class minutesToSecondsConverter {
+public class MinutesToSecondsConverter {
     int minutes = 5;
     int seconds = 60;
     public void secondsToMinutes() {
