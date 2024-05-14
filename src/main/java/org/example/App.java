@@ -6,12 +6,16 @@ public class App {
         RectanglePerimeter rectangle = new RectanglePerimeter();
         rectangle.perimeter();
 
-// Minutes to Second converter;
+        // Minutes to Second converter;
         MinutesToSecondsConverter convertor = new MinutesToSecondsConverter();
         convertor.secondsToMinutes();
 
         // Square squareaArea
         SquareArea area = new SquareArea(5);
         area.squareaArea();
+
+        //Cylinder volume calculator
+        CylinderVolumeCalculator volume = new CylinderVolumeCalculator();
+        volume.volume();
     }
 }
