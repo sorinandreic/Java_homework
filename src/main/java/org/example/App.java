@@ -25,7 +25,10 @@ public class App {
         //Hypotenuse calculator;
         Hypotenuse hypotenuse = new Hypotenuse(3, 3);
         hypotenuse.hypotenuseCalculator();
+
+        //Booleaan value assignment and printing;
+        BooleanExercises booleanExercises = new BooleanExercises(false,39);
+        booleanExercises.printForecast();
+
     }
-
-
 }
