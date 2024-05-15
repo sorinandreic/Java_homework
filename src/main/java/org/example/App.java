@@ -21,8 +21,11 @@ public class App {
         //Fahrenheit to Celsius calculator;
         TemperatureConverter tempConverter = new TemperatureConverter(98.5);
         tempConverter.fahrenheitToC();
-    }
 
+        //Hypotenuse calculator;
+        Hypotenuse hypotenuse = new Hypotenuse(3, 3);
+        hypotenuse.hypotenuseCalculator();
+    }
 
 
 }
