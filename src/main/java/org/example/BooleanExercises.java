@@ -2,7 +2,7 @@ package org.example;
 
 public class BooleanExercises {
 
-public static void moon(){
+public void moon(){
     boolean isMoonMadeFromCheese = false;
 
     System.out.println("True or False: The moon is made of cheese. ("+ isMoonMadeFromCheese +", but it would be the biggest wheel of cheese!)");
