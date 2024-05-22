@@ -1,45 +1,32 @@
 package org.example;
 
-import java.util.Random;
-
 public class BooleanExercises {
-    double rainForecast;
-    private boolean raining;
-    private Random random;
 
-    public BooleanExercises(boolean isRaining, double rainForecast) {
-        this.raining = isRaining;
-        this.rainForecast = rainForecast;
-        this.random= new Random();
-    }
+public void moon(){
+    boolean isMoonMadeFromCheese = false;
+
+    System.out.println("True or False: The moon is made of cheese. ("+ isMoonMadeFromCheese +", but it would be the biggest wheel of cheese!)");
+}
+
+    public void compareAndPrint(int a, int b) {
+
+        boolean isLessThan = a < b;
+        boolean isGreaterThan = a > b;
+        boolean isEqual = a == b;
+        boolean isNotEqual = a != b;
+        boolean isLessThanOrEqual = a <= b;
+        boolean isGreaterThanOrEqual = a > b;
 
 
-    public boolean isRaining() {
-        return raining;
-    }
 
-    public void setRaining(boolean raining) {
-        this.raining = raining;
-    }
-
-    public double getRainForecast() {
-        return rainForecast;
-    }
-
-    public void setRainForecast(double rainForecast) {
-        this.rainForecast = rainForecast;
-    }
-
-    public void printForecast() {
-        double chanceOfRain =random.nextDouble()*100;
-        if (chanceOfRain > 50) {
-            raining = true;
-            System.out.println("Raining forecast is " + raining + ". It will rain today!");
-        } else {
-            raining = false;
-            System.out.println("Raining forecast is " + raining + ". Today will be sunny.");
-        }
+        System.out.println(a + " < " + b + "  : " + isLessThan);
+        System.out.println(a + " > " + b + "  : " + isGreaterThan);
+        System.out.println(a + " == " + b + " : " + isEqual);
+        System.out.println(a + " != " + b + " : " + isNotEqual);
+        System.out.println(a + " <= " + b + " : " + isLessThanOrEqual);
+        System.out.println(a + " >= " + b + " : " + isGreaterThanOrEqual);
 
     }
+
 
 }

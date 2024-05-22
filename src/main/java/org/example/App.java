@@ -27,8 +27,12 @@ public class App {
         hypotenuse.hypotenuseCalculator();
 
         //Booleaan value assignment and printing;
-        BooleanExercises booleanExercises = new BooleanExercises(false,39);
-        booleanExercises.printForecast();
+        BooleanExercises booleanExercises = new BooleanExercises();
+        booleanExercises.moon();
 
+        //Boolean Comparison
+        BooleanExercises booleanExercises1 = new BooleanExercises();
+        booleanExercises1.compareAndPrint(5,11);
     }
+
 }
