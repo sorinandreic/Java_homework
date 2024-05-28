@@ -33,6 +33,12 @@ public class App {
         //Boolean Comparison
         BooleanExercises booleanExercises1 = new BooleanExercises();
         booleanExercises1.compareAndPrint(5,11);
+
+    // Checking weather conditions
+        BooleanExercises booleanExercises2 = new BooleanExercises();
+        booleanExercises2.checkingWeatherConditions(true,true,false);
+        booleanExercises2.checkingWeatherConditions(false,true,false);
+        booleanExercises2.checkingWeatherConditions(false,false,false);
     }
 
 }
