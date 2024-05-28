@@ -32,13 +32,25 @@ public class App {
 
         //Boolean Comparison
         BooleanExercises booleanExercises1 = new BooleanExercises();
-        booleanExercises1.compareAndPrint(5,11);
+        booleanExercises1.compareAndPrint(5, 11);
 
-    // Checking weather conditions
+        // Checking weather conditions
         BooleanExercises booleanExercises2 = new BooleanExercises();
-        booleanExercises2.checkingWeatherConditions(true,true,false);
-        booleanExercises2.checkingWeatherConditions(false,true,false);
-        booleanExercises2.checkingWeatherConditions(false,false,false);
+        booleanExercises2.checkingWeatherConditions(true, true, false);
+        booleanExercises2.checkingWeatherConditions(false, true, false);
+        booleanExercises2.checkingWeatherConditions(false, false, false);
+
+        //Print a Character
+        CharExercises charExercises = new CharExercises();
+        charExercises.charPrint();
+
+        // Convert char
+        CharExercises charexercises2 = new CharExercises();
+        charexercises2.convertCase();
+
+        //Concatenate Character with String
+        CharExercises charexercises3 = new CharExercises();
+charexercises3.concatenateCharWithString();
     }
 
 }
