@@ -50,7 +50,20 @@ public class App {
 
         //Concatenate Character with String
         CharExercises charexercises3 = new CharExercises();
-charexercises3.concatenateCharWithString();
+        charexercises3.concatenateCharWithString();
+
+        //Print a String
+        StringExercises stringExercises = new StringExercises();
+        stringExercises.printString();
+
+        //Concatenate Two Strings
+        StringExercises stringExercises1 = new StringExercises();
+        stringExercises1.concatenateStrings();
+
+        //Replace Characters
+        StringExercises stringExercises2 = new StringExercises();
+        stringExercises2.replaceStringCharacters();
+
     }
 
 }
