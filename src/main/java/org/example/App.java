@@ -31,39 +31,42 @@ public class App {
         booleanExercises.moon();
 
         //Boolean Comparison
-        BooleanExercises booleanExercises1 = new BooleanExercises();
-        booleanExercises1.compareAndPrint(5, 11);
+        booleanExercises.compareAndPrint(5, 11);
 
         // Checking weather conditions
-        BooleanExercises booleanExercises2 = new BooleanExercises();
-        booleanExercises2.checkingWeatherConditions(true, true, false);
-        booleanExercises2.checkingWeatherConditions(false, true, false);
-        booleanExercises2.checkingWeatherConditions(false, false, false);
+        booleanExercises.checkingWeatherConditions(true, true, false);
+        booleanExercises.checkingWeatherConditions(false, true, false);
+        booleanExercises.checkingWeatherConditions(false, false, false);
 
         //Print a Character
         CharExercises charExercises = new CharExercises();
         charExercises.charPrint();
 
         // Convert char
-        CharExercises charexercises2 = new CharExercises();
-        charexercises2.convertCase();
+        charExercises.convertCase();
 
         //Concatenate Character with String
-        CharExercises charexercises3 = new CharExercises();
-        charexercises3.concatenateCharWithString();
+        charExercises.concatenateCharWithString();
 
         //Print a String
         StringExercises stringExercises = new StringExercises();
         stringExercises.printString();
 
         //Concatenate Two Strings
-        StringExercises stringExercises1 = new StringExercises();
-        stringExercises1.concatenateStrings();
+        stringExercises.concatenateStrings();
 
-        //Replace Characters
-        StringExercises stringExercises2 = new StringExercises();
-        stringExercises2.replaceStringCharacters();
+        //Replace Characters in a String
+        stringExercises.replaceStringCharacters();
 
+        //Basic Arithmetic Operators
+        Operators operators = new Operators();
+        operators.calculator();
+
+        //Modulus Magic
+        operators.modulusMagic();
+
+        //Compound Assignment Operators
+        operators.compoundAssignmentOperators();
     }
 
 }
