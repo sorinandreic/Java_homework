@@ -67,6 +67,16 @@ public class App {
 
         //Compound Assignment Operators
         operators.compoundAssignmentOperators();
+
+        //Grade Calculator
+        IfBlocks ifBlocks = new IfBlocks();
+        ifBlocks.gradeCalculator();
+
+        //Password Checker
+        ifBlocks.passwordChecker();
+
+        //Leap Year
+        ifBlocks.leapYearChecker();
     }
 
 }
