@@ -11,7 +11,6 @@ public class BreakAndContinue {
 
 
     public void positiveDivisor() {
-//        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number to reveal it's first positive divisor(other than 1) : ");
         int number = scanner.nextInt();
 
@@ -61,7 +60,7 @@ public class BreakAndContinue {
         Random random = new Random();
         int secretNumber = random.nextInt(10) + 1;
         int numberOfAttempts = 5;
-        int userGuess = 0;
+        int userGuess;
         boolean hasGuessed = false;
         System.out.println("Can you read my mind and guess the number I'm thinking of from 1 to 10? You have 5 attempts left");
 
@@ -73,7 +72,7 @@ public class BreakAndContinue {
             } else if (userGuess < 1 || userGuess > 10) {
                 System.out.println("Your number is not in the range. Please enter a number between 1 and 10.");
             } else {
-                System.out.println("Wrong guess! Try again! You have" + (numberOfAttempts-attempt) + " attempts left");
+                System.out.println("Wrong guess! Try again! You have " + (numberOfAttempts-attempt) + " attempts left");
 
             }
         }
