@@ -77,6 +77,17 @@ public class App {
 
         //Leap Year
         ifBlocks.leapYearChecker();
+
+        // Days of the week
+        SwitchEx switchEx = new SwitchEx();
+        switchEx.weekDays();
+
+        //Simple Calculator
+        switchEx.simpleCalculator();
+
+        //Trafic light Simulator
+        switchEx.trafficLights();
+
     }
 
 }
