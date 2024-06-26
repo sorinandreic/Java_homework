@@ -88,6 +88,15 @@ public class App {
         //Trafic light Simulator
         switchEx.trafficLights();
 
+        //First positive divisor
+        BreakAndContinue breakAndContinue = new BreakAndContinue();
+        breakAndContinue.positiveDivisor();
+
+        //Skip negative numbers
+        breakAndContinue.skipNegativeNumbers();
+
+        //Guess the number
+        breakAndContinue.guessTheNumber();
     }
 
 }
