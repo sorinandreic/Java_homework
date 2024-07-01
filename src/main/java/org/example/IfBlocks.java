@@ -9,7 +9,9 @@ public class IfBlocks {
     public void gradeCalculator() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the score to reveal your grade: ");
+        System.out.println("\n"
+                + "Grade Calculator\n"
+                + "Enter the score to reveal your grade: ");
         int score = scanner.nextInt();
         char grade;
         if (score >= 90) {
@@ -33,7 +35,9 @@ public class IfBlocks {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter your password(or just hit ENTER to exit): ");
+            System.out.println("\n"
+                    + "Password Checker \n"
+                    + "Enter your password(or just hit ENTER to exit): ");
             String password = scanner.nextLine().trim();
             if (password.isEmpty()) {
                 break;
@@ -68,7 +72,9 @@ public class IfBlocks {
 
         while (true) {
             //read the input from the user
-            System.out.println("Enter a year(or just hit ENTER to exit): ");
+            System.out.println("\n"
+                    +"Leap Year Checker \n" +
+                    "Enter a year(or just hit ENTER to exit): ");
 
             String input = scanner.nextLine().trim();
             //if no input and press enter close app

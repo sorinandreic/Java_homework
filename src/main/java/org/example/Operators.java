@@ -30,14 +30,16 @@ public class Operators {
     //Write a Java program that checks if a number (input from the user) is even or odd without using any conditional statements (hint: use the modulus operator).
     public void modulusMagic() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your number to check if it's even or odd: ");
+        System.out.println("\n"+
+                "Modulus Magic \n"+
+                "Please enter your number to check if it's even or odd: ");
 
         int userNumber = scanner.nextInt();
         String[] results = {"Even", "Odd"};
 
         String result = results[userNumber % 2];
 
-        System.out.println("The number " + userNumber + " is " + result);
+        System.out.println("The number " + userNumber + " is " + result + "\n");
     }
 
     //Create a program that demonstrates the use of compound assignment operators like +=, -=, *=, and /= with some integers. Print the result after each operation to see the effect.

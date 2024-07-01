@@ -11,7 +11,8 @@ public class BreakAndContinue {
 
 
     public void positiveDivisor() {
-        System.out.println("Enter a number to reveal it's first positive divisor(other than 1) : ");
+        System.out.println("\n" +
+                "Enter a number to reveal it's first positive divisor(other than 1) : ");
         int number = scanner.nextInt();
 
         for (int i = 2; i <= number; i++) {
@@ -21,7 +22,7 @@ public class BreakAndContinue {
             }
         }
         if (number != 1) {
-            System.out.println("The first positive divisor other than 1 is: " + number);
+            System.out.println("The first positive divisor other than 1 is: " + number + "\n");
         } else {
             System.out.println("No other positive divisor found");
         }
@@ -33,7 +34,8 @@ public class BreakAndContinue {
         int sum = 0;
 
         while (true) {
-            System.out.print("Enter the number (0 will stop the program): ");
+            System.out.print("Skip negative numbers and sum up the positive ones\n"
+                    + "Enter the number (0 will stop the program): ");
             int number = scanner.nextInt();
 
             // If the user enters 0, break the loop
@@ -49,7 +51,7 @@ public class BreakAndContinue {
         }
 
         // print the final sum
-        System.out.println("The sum of positive numbers is: " + sum);
+        System.out.println("The sum of positive numbers is: " + sum + "\n");
 
     }
 
@@ -62,7 +64,8 @@ public class BreakAndContinue {
         int numberOfAttempts = 5;
         int userGuess;
         boolean hasGuessed = false;
-        System.out.println("Can you read my mind and guess the number I'm thinking of from 1 to 10? You have 5 attempts left");
+        System.out.println("Guess the Number Game\n"
+                + "Can you read my mind and guess the number I'm thinking of from 1 to 10? You have 5 attempts left");
 
         for (int attempt = 1; attempt <= numberOfAttempts; attempt++) {
             userGuess = scanner.nextInt();
@@ -72,7 +75,7 @@ public class BreakAndContinue {
             } else if (userGuess < 1 || userGuess > 10) {
                 System.out.println("Your number is not in the range. Please enter a number between 1 and 10.");
             } else {
-                System.out.println("Wrong guess! Try again! You have " + (numberOfAttempts-attempt) + " attempts left");
+                System.out.println("Wrong guess! Try again! You have " + (numberOfAttempts - attempt) + " attempts left");
 
             }
         }
