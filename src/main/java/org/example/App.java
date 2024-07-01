@@ -97,6 +97,39 @@ public class App {
 
         //Guess the number
         breakAndContinue.guessTheNumber();
+
+        //For loops
+        //Multiplication table
+        ForLoops forLoops = new ForLoops();
+        forLoops.muliplicationTable();
+
+        //Factorial Calculator
+        forLoops.factorialCalculator();
+
+        //Countdown timer
+        forLoops.countdownTimer();
+
+        //While Loops
+        //Input Summation
+        WhileLoops whileLoops = new WhileLoops();
+        whileLoops.inputSummation();
+
+        //Guessing game
+        whileLoops.guessingGame();
+
+        //Palindrome Checker
+        whileLoops.palindromeChecker();
+
+        //For Each Loop
+        //Find the maximum
+        ForEachLoop forEachLoop = new ForEachLoop();
+        forEachLoop.findTheMax();
+
+        //Count the vowels
+        forEachLoop.countTheVowels("Java is fun!");
+
+        //Sum of even numbers from an array
+        forEachLoop.sumOfEvenNumbers();
     }
 
 }

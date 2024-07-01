@@ -11,7 +11,9 @@ public class SwitchEx {
         Scanner scanner = new Scanner(System.in);
         while (true) {
 
-            System.out.println("Enter a number between 1 and 7(or just hit ENTER to exit)");
+            System.out.println("\n"
+                    + "Day of the week \n"
+                    + "Enter a number between 1 and 7(or just hit ENTER to exit)");
             String dayNumber = scanner.nextLine().trim();
             //if no input and press enter close app
             if (dayNumber.isEmpty()) {
@@ -57,7 +59,9 @@ public class SwitchEx {
     public void simpleCalculator() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the first number");
+        System.out.println("\n"
+                + "Simple Calculator\n"
+                + "Enter the first number");
         int firstNumber = scanner.nextInt();
         System.out.println("Enter the operator(+,-,*,/)");
         char operator = scanner.next().charAt(0);
@@ -98,25 +102,26 @@ public class SwitchEx {
 
     public void trafficLights() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a traffic light colour");
+        System.out.println("\n"
+                + "Traffic Lights Sumulator \n"
+                + "Enter a traffic light colour");
         String colour = scanner.nextLine().trim();
 
         switch (colour) {
             case "red":
-                System.out.println("If the traffic light is red, you need to stop");
+                System.out.println("STOP");
                 break;
             case "yellow":
-                System.out.println("If the traffic light is yellow, you need to prepare to stop");
+                System.out.println("Prepare to stop");
                 break;
             case "green":
-                System.out.println("If the traffic light is green, you can start");
+                System.out.println("GO");
                 break;
             default:
-                System.out.println("Invalid traffic light colour");
+                System.out.println("Invalid traffic colour");
                 return;
 
         }
-        System.out.println(colour);
     }
 
 
